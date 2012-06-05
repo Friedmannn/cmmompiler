@@ -1,0 +1,13 @@
+int func(int i, int j){
+	if(i >= j)
+		return 1;
+	else
+		return -1;
+}
+
+int main(){
+	int a = read();
+	int b = read();
+	write(func(a, b));
+	return 0;
+}

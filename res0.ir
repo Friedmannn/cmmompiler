@@ -1,0 +1,15 @@
+FUNCTION func :
+PARAM a
+PARAM b
+FUNCTION main :
+DEC	xx 80
+t1 := #1
+i := t1
+t2 := #2
+j := t2
+t4 := i
+t5 := j
+t3 := t4 + t5
+k := t3
+t6 := #0
+RETURN t6

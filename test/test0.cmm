@@ -1,0 +1,10 @@
+int func(int a, int b){
+}
+
+int main(){
+	int xx[10][2];
+	int i = 1, j, k;
+	j = 2;
+	k = i + j;
+	return 0;
+}
